@@ -1,0 +1,27 @@
+{
+  "name": "wuyongjun",
+  "version": "1.0.0",
+  "description": "typescript in webpack demo",
+  "main": "index.js",
+  "scripts": {
+    "dev": "webpack --mode development",
+    "serve": "webpack-dev-server --mode development",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "wyj",
+  "license": "ISC",
+  "dependencies": {
+    "@types/react": "^16.4.6",
+    "@types/react-dom": "^16.0.6",
+    "react": "^16.4.1",
+    "react-dom": "^16.4.1",
+    "webpack": "^4.16.1"
+  },
+  "devDependencies": {
+    "awesome-typescript-loader": "^5.2.0",
+    "source-map-loader": "^0.2.3",
+    "typescript": "^2.9.2",
+    "webpack-cli": "^3.0.8",
+    "webpack-dev-server": "^3.1.4"
+  }
+}
